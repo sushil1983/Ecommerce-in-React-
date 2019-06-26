@@ -9,15 +9,15 @@ export default class  SliderSection extends React.Component {
 
 
 <section id="main-slider-section">
-    	<div id="main-slider" className="slider-bg2  owl-carousel owl-theme product-review slider-cat">
-			<div className="item d-flex  slider-bg align-items-center">
-				<div className="container-fluid">
-					<div className="row justify-content-end">
+    	<div id="mainSlider" className="sliderBg2  owl-carousel owl-theme product-review slider-cat">
+			<div className="item dFlex  sliderBg alignItemsCenter">
+				<div className="containerFluid">
+					<div className="row justifyContentEnd">
 					
 						<div className="slider-text col-sm-6  col-xl-4   col-md-6 order-2 order-sm-1">
-							<h6 className="sub-title">Choose your favourite market</h6>
-							<h1 className="slider-title"><strong className="highlights-text">Compare</strong> Best Prices</h1>
-							<p className="slider-content">Grabe it hurry.</p>
+							<h6 className="subTitle">Choose your favourite market</h6>
+							<h1 className="sliderTitle"><strong className="highlights-text">Compare</strong> Best Prices</h1>
+							<p className="sliderContent">Grabe it hurry.</p>
 							<a href="shop-left-sidebar.html" className="btn btn-primary wd-shop-btn slider-btn">
 								Go to store <i className="fa fa-arrow-right" aria-hidden="true"></i>
 							</a>
@@ -28,13 +28,13 @@ export default class  SliderSection extends React.Component {
 					</div>
 				</div>
 			</div>
-           <div className="item d-flex  slider-bg align-items-center">
-				<div className="container-fluid">
-					<div className="row justify-content-end">
-						<div className="slider-text  col-sm-6 col-xl-4    col-md-6">
-							<h6 className="sub-title">Choose your favourite market</h6>
-							<h1 className="slider-title"><strong className="highlights-text">Compare</strong> Best Prices</h1>
-							<p className="slider-content">Grabe it hurry.</p>
+           <div className="item Dflex  sliderBg alignItemsCenter">
+				<div className="containerFluid">
+					<div className="row justifyContentEnd">
+						<div className="sliderText  col-sm-6 col-xl-4    col-md-6">
+							<h6 className="subTitle">Choose your favourite market</h6>
+							<h1 className="sliderTitle"><strong className="highlights-text">Compare</strong> Best Prices</h1>
+							<p className="sliderContent">Grabe it hurry.</p>
 							<a href="shop-left-sidebar.html" className="btn btn-primary wd-shop-btn slider-btn">
 								Go to store <i className="fa fa-arrow-right" aria-hidden="true"></i>
 							</a>

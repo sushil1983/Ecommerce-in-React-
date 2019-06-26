@@ -1,40 +1,40 @@
 import React from 'react';
 
-export default class Welcome extends React.Component {
+export default class Footer extends React.Component {
   render() {
     return (
 <div>
 
 
-<footer class="footer wow fadeInUp animated footer-3" data-wow-delay="900ms">
-    	<div class="container-fluid custom-width">
-    		<div class="row">
-    			<div class="col-md-12 col-lg-2">
+<footer className="footer wow fadeInUp animated footer-3" data-wow-delay="900ms">
+    	<div className="container-fluid custom-width">
+    		<div className="row">
+    			<div className="col-md-12 col-lg-2">
     				{/* <!-- ===========================
     						Footer About
     					 =========================== --> */}
-    				<div class="footer-about">
-    					<a href="index.html" class="footer-about-logo">
+    				<div className="footerAbout">
+    					<a href="index.html" className="footer-about-logo">
     						<img src="img/logo.png" alt="Logo"/>
     					</a>
-	    				<div class="footer-description">
+	    				<div className="footerDescription">
 	    					<p>Lorem ipsum dolor sit amet, anim id est laborum. Sed ut perspconsectetur, adipisci vam aliquam qua.</p>
 	    				</div>
-	    				<div class="wb-social-media">
-						<a href="#" class="bh"><i class="fa fa-behance"></i></a>
-						<a href="#" class="fb"><i class="fa fa-facebook-official"></i></a>
-						<a href="#" class="db"><i class="fa fa-dribbble"></i></a>
-						<a href="#" class="gp"><i class="fa fa-google-plus"></i></a>
-						<a href="#" class="vn"><i class="fa fa-vine"></i></a>
-						<a href="#" class="yt"><i class="fa fa-youtube-play"></i></a>
+	    				<div className="wb-social-media">
+						<a href="#" className="bh"><i className="fa fa-behance"></i></a>
+						<a href="#" className="fb"><i className="fa fa-facebook-official"></i></a>
+						<a href="#" className="db"><i className="fa fa-dribbble"></i></a>
+						<a href="#" className="gp"><i className="fa fa-google-plus"></i></a>
+						<a href="#" className="vn"><i className="fa fa-vine"></i></a>
+						<a href="#" className="yt"><i className="fa fa-youtube-play"></i></a>
 					</div>
     				</div>
     			</div>
-    			<div class="col-6 col-md-3 col-lg-2 footer-nav">
+    			<div className="col-6 col-md-3 col-lg-2 footer-nav">
     				{/* <!-- ===========================
     						Festival Deals
     					 =========================== --> */}
-    				<h6 class="footer-subtitle">Festival Deals</h6>
+    				<h6 className="footerSubtitle">Festival Deals</h6>
     				<ul>
     					<li><a href="index.html"> Home </a></li>
     					<li><a href="compare-products.html">Comparison Product </a></li>
@@ -43,12 +43,12 @@ export default class Welcome extends React.Component {
     					<li><a href="blog-four-grid-left-sidebar.html">Blog</a></li>
     				</ul>
     			</div>
-    			<div class="col-6 col-md-3 col-lg-2 footer-nav">
+    			<div className="col-6 col-md-3 col-lg-2 footer-nav">
     				{/* <!-- ===========================
     						Top Stores
     					 =========================== --> */}
-    				<div class="stores-list">
-	    				<h6 class="footer-subtitle">Top Stores</h6>
+    				<div className="storesList">
+	    				<h6 className="footerSubtitle">Top Stores</h6>
 	    				<ul>
 	    					<li><a href="shop-left-sidebar.html">Affiliate Market 1</a></li>
 	    					<li><a href="shop-left-sidebar.html">Affiliate Market 2</a></li>
@@ -59,11 +59,11 @@ export default class Welcome extends React.Component {
 	    				</ul>
     				</div>
     			</div>
-    			<div class="col-6 col-md-3 col-lg-2 footer-nav">
+    			<div className="col-6 col-md-3 col-lg-2 footer-nav">
     				{/* <!-- ===========================
     						Need Help ?
     					 =========================== --> */}
-    				<h6 class="footer-subtitle">Need Help ?</h6>
+    				<h6 className="footerSubtitle">Need Help ?</h6>
     				<ul>
     					<li><a href="product-details-scroll.html">Getting Started</a></li>
     					<li><a href="contact-us.html">Contact Us</a></li>
@@ -74,11 +74,11 @@ export default class Welcome extends React.Component {
     					<li><a href="product-details-scroll.html">Feature product</a></li>
     				</ul>
     			</div>
-    			<div class="col-6 col-md-3 col-lg-2 footer-nav">
+    			<div className="col-6 col-md-3 col-lg-2 footer-nav">
     				{/* <!-- ===========================
     						About
     					 =========================== --> */}
-    				<h6 class="footer-subtitle">About</h6>
+    				<h6 className="footerSubtitle">About</h6>
 	    				<ul>
 	    					<li><a href="conditions.html">Privacy</a></li>
 	    					<li><a href="conditions.html">Return Policy</a></li>
@@ -86,15 +86,15 @@ export default class Welcome extends React.Component {
 	    					<li><a href="conditions.html">Terms &#38; Conditions</a></li>
 	    				</ul>
     			</div>
-    			<div class="col-12 col-md-12 col-lg-2">
-    				<h6 class="footer-subtitle">Newsletter Signup</h6>
-    				<p class="newsletter-content">By subscribing to our mailing list you will always be update with the latest news from us.</p>
-    				<div class="newsletter-form">
+    			<div className="col-12 col-md-12 col-lg-2">
+    				<h6 className="footerSubtitle">Newsletter Signup</h6>
+    				<p className="newsletterContent">By subscribing to our mailing list you will always be update with the latest news from us.</p>
+    				<div className="newsletterForm">
 						<form>
-							<div class="form-group">
-								<input type="text" class="form-control newsletter-input" placeholder="Enter your email"/>
+							<div className="formGroup">
+								<input type="text" className="form-control newsletter-input" placeholder="Enter your email"/>
 							</div>
-							<button type="submit" class="btn btn-primary newsletter-btn">Join us</button>
+							<button type="submit" className="btn btn-primary newsletter-btn">Join us</button>
 						</form>
     				</div>
     			</div>

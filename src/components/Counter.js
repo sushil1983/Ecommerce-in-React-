@@ -1,7 +1,8 @@
 import React from 'react';
 
 
-function Counter() {
+export default class Counter extends React.Component {
+	render(){
   return (
 	
     <div>
@@ -42,5 +43,5 @@ function Counter() {
 	</div>
   );
 }
+}
 
-export default Counter

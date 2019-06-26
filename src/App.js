@@ -1,7 +1,7 @@
 import React  from 'react'
 
 
-
+import 'bootstrap/dist/css/bootstrap.min.css';
  import './App.css';
   import './css/animate.css'
  
@@ -39,13 +39,9 @@ class  App extends React.Component {
   return (
     <div>
 		<span className ="p"> </span>
-		
+		<Header />
 		<WdHeader />
-		
-		 <Header />
-
-		 
-		<CartOut />		
+			
 		<SliderSection />
 		
 		
